@@ -1,9 +1,15 @@
+import sunIcon from './icons/sun.png';
+import cloudyIcon from './icons/cloudy.png';
+import cloudIcon from './icons/cloud.png';
+import rainyIcon from './icons/rainy-day.png';
+import rainIcon from './icons/rain.png';
+
 export const WEATHER_STATES_TO_ICON = {
-    c: "fas fa-sun",
-    lc: "fas fa-cloud-sun",
-    hc: "fas fa-cloud",
-    lr: "fas fa-cloud-sun-rain",
-    hr: "fas fa-cloud-showers-heavy"
+    c: sunIcon,
+    lc: cloudyIcon,
+    hc: cloudIcon,
+    lr: rainyIcon,
+    hr: rainIcon
 };
 
 export const weatherProps = [
